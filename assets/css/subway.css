@@ -305,13 +305,13 @@ html { overflow: hidden; }
 }
 
 .message_notification{
-  padding: 1% 0% 1% 1%;
+  padding: 5px 0 5px 5px;
 }
 
 .join_img, .part_img, .topic_img{
   width: 16px;
   height: 16px;
-  padding-right: 1%;
+  padding-right: 5px;
   display: inline-block;
   background-repeat: no-repeat;
   vertical-align: text-bottom;
@@ -369,9 +369,15 @@ html { overflow: hidden; }
 
 .chat_action {
   display: table-cell;
-  width: 80%;
-  padding: 1% 0% 1% 2%;
+  padding: 5px 0 5px 5px;
   border-right: 1px solid #DDDDDD;
+  font-style: italic;
+}
+
+.chat_action > b {
+  width: 100px;
+  display: inline-block;
+  text-align: right;
 }
 
 .chat-time {
@@ -406,9 +412,9 @@ html { overflow: hidden; }
 }
 
 .userlist_user_activity{
-  width: 13%;
+  width: 18px;
   display: table-cell;
-  padding: 5px;
+  padding: 2px;
   background: #EFEFEF;
   text-align: center;
   border-right: 1px solid #DDDDDD;
@@ -431,7 +437,6 @@ html { overflow: hidden; }
 
 .userlist_user_info{
   display: table-cell;
-  width: 87%;
   padding: 5px 0% 5px 5px;
 }
 
