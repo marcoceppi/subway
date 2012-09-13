@@ -135,8 +135,8 @@ html { overflow: hidden; }
 }
 
 #channels {
-  overflow: auto;
   width: 100%;
+  text-overflow: ellipsis;
 }
 
 #channels > .channel {
@@ -391,9 +391,9 @@ html { overflow: hidden; }
 
 #user-window {
   height: 100%;
-  width: 20%;
+  width: 10%;
   position: absolute;
-  margin-left: 80%;
+  right:10%;
   background: #E7E9ED;
 }
 
