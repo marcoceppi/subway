@@ -21,7 +21,7 @@ html { overflow: hidden; }
 .container-fluid > .sidebar {
   position: fixed;
   top: 0;
-  width: 15%;
+  width: 220px;
   min-height:100%;
   background-color: #E7E9ED;
   border-right: 2px solid #DDD;
@@ -32,8 +32,8 @@ html { overflow: hidden; }
 }
 .container-fluid > .content {
     min-height: 100%;
-    width: 85%;
-    margin-left: 15%;
+    width: 100%;
+    margin-left: 220px;
     position: absolute;
     background: whiteSmoke;
 }
@@ -116,7 +116,7 @@ html { overflow: hidden; }
 
 
 #user-box div{
-  padding: 10px 25px;
+  padding: 5px 10px;
   background: #434950;
   color: #EEEEEE;
   font-weight: bold;
@@ -140,7 +140,7 @@ html { overflow: hidden; }
 }
 
 #channels > .channel {
-  padding: 5% 5% 5% 20%;
+  padding: 5px 5px 5px 30px;
   color: #333333;
   border-bottom: 1px solid #CCCCCC;
 }
@@ -332,14 +332,15 @@ html { overflow: hidden; }
 .chat-name {
   display: table-cell;
   vertical-align: top;
-  padding: 5px 0 5px 5px;
+  padding: 5px 5px 5px 0;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: right;
+  width: 100px;
 }
 
 .chat-message {
   display: table-cell;
-  width: 70%;
   max-width: 200px;
   padding: 5px;
   border-left: 1px solid #DDDDDD;
