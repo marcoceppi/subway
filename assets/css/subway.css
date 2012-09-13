@@ -452,3 +452,9 @@ html { overflow: hidden; }
   color: #666666;
 }
 
+.message_notification > span > b {
+  width: 75px;
+  display: inline-block;
+  text-align: right;
+  text-overflow: ellipsis;
+}
