@@ -187,23 +187,23 @@ html { overflow: hidden; }
 
 .channel .unread,
 .channel .unread-mentions {
-  padding: 2px 6px;
-  margin-top: -2px;
+  padding: 1px 5px;
   color: whiteSmoke;
   font-weight: bold;
   border-radius: 4px;
   -webkit-border-radius: 4px;
-  float: right;
   display: none;
+  position: absolute;
+  left: 5px;
 }
 
 .channel .unread {
   background: #980000;
+  left: 25px;
 }
 
 .channel .unread-mentions {
   background: #0B2666;
-  margin-right: 0.3em;
 }
 
 #logo {
