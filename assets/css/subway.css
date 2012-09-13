@@ -140,7 +140,7 @@ html { overflow: hidden; }
 }
 
 #channels > .channel {
-  padding: 5px 5px 5px 30px;
+  padding: 5px 5px 5px 45px;
   color: #333333;
   border-bottom: 1px solid #CCCCCC;
 }
