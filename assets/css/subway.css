@@ -331,19 +331,17 @@ html { overflow: hidden; }
 
 .chat-name {
   display: table-cell;
-  width: 14%;
   vertical-align: top;
-  padding: 1% 0% 1% 1%;
-  max-width: 50px;
+  padding: 5px 0 5px 5px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .chat-message {
   display: table-cell;
-  width: 66%;
+  width: 70%;
   max-width: 200px;
-  padding: 1%;
+  padding: 5px;
   border-left: 1px solid #DDDDDD;
   border-right: 1px solid #DDDDDD;
 }
@@ -380,8 +378,8 @@ html { overflow: hidden; }
   vertical-align: top;
   color: #888888;
   text-align: center;
-  padding: 1% 0% 1% 0%;
-  width: 20%;
+  padding: 5px 0% 5px 0%;
+  width: 155px;
 }
 
 #user-window {
@@ -409,7 +407,7 @@ html { overflow: hidden; }
 .userlist_user_activity{
   width: 13%;
   display: table-cell;
-  padding: 2%;
+  padding: 5px;
   background: #EFEFEF;
   text-align: center;
   border-right: 1px solid #DDDDDD;
@@ -433,7 +431,7 @@ html { overflow: hidden; }
 .userlist_user_info{
   display: table-cell;
   width: 87%;
-  padding: 3% 0% 3% 5%;
+  padding: 5px 0% 5px 5px;
 }
 
 .userlist_user_name{
