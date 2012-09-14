@@ -295,7 +295,6 @@ html { overflow: hidden; }
 }
 
 .message-box {
-  border-bottom: 1px solid #DDDDDD;
   display: table;
   width: 100%;
 }
@@ -305,7 +304,7 @@ html { overflow: hidden; }
 }
 
 .message_notification{
-  padding: 5px 0 5px 5px;
+  padding-left: 5px;
 }
 
 .join_img, .part_img, .topic_img{
@@ -332,7 +331,7 @@ html { overflow: hidden; }
 .chat-name {
   display: table-cell;
   vertical-align: top;
-  padding: 5px 5px 5px 0;
+  padding-right: 5px;
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: right;
@@ -341,10 +340,7 @@ html { overflow: hidden; }
 
 .chat-message {
   display: table-cell;
-  max-width: 200px;
-  padding: 5px;
-  border-left: 1px solid #DDDDDD;
-  border-right: 1px solid #DDDDDD;
+  border-right: 1px solid #DDD;
 }
 
 .chat-message span{
@@ -384,9 +380,9 @@ html { overflow: hidden; }
   display: table-cell;
   vertical-align: top;
   color: #888888;
-  text-align: center;
-  padding: 5px 0% 5px 0%;
+  text-align: left;
   width: 155px;
+  padding-left: 5px;
 }
 
 #user-window {
