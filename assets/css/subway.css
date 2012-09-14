@@ -151,13 +151,14 @@ html { overflow: hidden; }
   font: bold 20px Arial;
   text-shadow: 0 1px 0 whiteSmoke;
   line-height: 19px;
-  float: right;
   opacity: 0.3;
   width: 24px;
   text-align: center;
   cursor: pointer;
-  margin-left: 5px;
   visibility: hidden;
+  position: absolute;
+  margin-top: -20px;
+  right: 2px;
 }
 
 #channels > .channel:hover .close-button {
