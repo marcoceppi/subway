@@ -265,6 +265,7 @@ html { overflow: hidden; }
   overflow-x: hidden;
   background: whiteSmoke;
   border-right: 1px solid #DDDDDD
+  font-size: 14px;
 }
 
 #input-container {
@@ -390,7 +391,7 @@ html { overflow: hidden; }
   vertical-align: top;
   color: #888888;
   text-align: left;
-  width: 155px;
+  width: 180px;
   padding-left: 5px;
 }
 
