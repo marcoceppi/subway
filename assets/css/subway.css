@@ -264,7 +264,7 @@ html { overflow: hidden; }
   overflow-y: auto;
   overflow-x: hidden;
   background: whiteSmoke;
-  border-right: 1px solid #DDDDDD
+  border-right: 1px solid #DDDDDD;
   font-size: 14px;
 }
 
@@ -316,6 +316,7 @@ html { overflow: hidden; }
 
 .message_notification:hover{
   opacity: 1.0;
+}
 
 .join_img, .part_img, .topic_img{
   width: 16px;
