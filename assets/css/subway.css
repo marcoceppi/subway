@@ -306,7 +306,15 @@ html { overflow: hidden; }
 
 .message_notification{
   padding-left: 5px;
+  opacity: 0.3;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
+
+.message_notification:hover{
+  opacity: 1.0;
 
 .join_img, .part_img, .topic_img{
   width: 16px;
